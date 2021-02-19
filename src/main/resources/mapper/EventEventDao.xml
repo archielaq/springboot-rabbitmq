@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.EventEventDao">
+
+    <resultMap type="com.example.demo.entity.EventEvent" id="EventEventMap">
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="taskcode" column="taskcode" jdbcType="VARCHAR"/>
+        <result property="state" column="state" jdbcType="VARCHAR"/>
+        <result property="placecode" column="placecode" jdbcType="VARCHAR"/>
+        <result property="source" column="source" jdbcType="VARCHAR"/>
+        <result property="wttype" column="wttype" jdbcType="VARCHAR"/>
+        <result property="grade" column="grade" jdbcType="VARCHAR"/>
+        <result property="type1Id" column="type1_id" jdbcType="VARCHAR"/>
+        <result property="type1Name" column="type1_name" jdbcType="VARCHAR"/>
+        <result property="type2Id" column="type2_id" jdbcType="VARCHAR"/>
+        <result property="type2Name" column="type2_name" jdbcType="VARCHAR"/>
+        <result property="type3Id" column="type3_id" jdbcType="VARCHAR"/>
+        <result property="type3Name" column="type3_name" jdbcType="VARCHAR"/>
+        <result property="citycode" column="citycode" jdbcType="VARCHAR"/>
+        <result property="towncode" column="towncode" jdbcType="VARCHAR"/>
+        <result property="streetId" column="street_id" jdbcType="VARCHAR"/>
+        <result property="countryId" column="country_id" jdbcType="VARCHAR"/>
+        <result property="gridId" column="grid_id" jdbcType="VARCHAR"/>
+        <result property="reporterCallphone" column="reporter_callphone" jdbcType="VARCHAR"/>
+        <result property="patrolerId" column="patroler_id" jdbcType="VARCHAR"/>
+        <result property="reporterId" column="reporter_id" jdbcType="VARCHAR"/>
+        <result property="operatorId" column="operator_id" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="pointx" column="pointx" jdbcType="VARCHAR"/>
+        <result property="pointy" column="pointy" jdbcType="VARCHAR"/>
+        <result property="eventdesc" column="eventdesc" jdbcType="VARCHAR"/>
+        <result property="createtime" column="createtime" jdbcType="INTEGER"/>
+        <result property="simple" column="simple" jdbcType="VARCHAR"/>
+        <result property="currentId" column="current_id" jdbcType="VARCHAR"/>
+        <result property="currentdeptId" column="currentdept_id" jdbcType="VARCHAR"/>
+        <result property="sign" column="sign" jdbcType="VARCHAR"/>
+        <result property="dealresult" column="dealresult" jdbcType="VARCHAR"/>
+        <result property="dealtime" column="dealtime" jdbcType="INTEGER"/>
+        <result property="pretaskcode" column="pretaskcode" jdbcType="VARCHAR"/>
+        <result property="deadtime" column="deadtime" jdbcType="INTEGER"/>
+        <result property="lockevent" column="lockevent" jdbcType="VARCHAR"/>
+        <result property="ifdeal" column="ifdeal" jdbcType="VARCHAR"/>
+        <result property="ifcontact" column="ifcontact" jdbcType="VARCHAR"/>
+    </resultMap>
+
+</mapper>
+
